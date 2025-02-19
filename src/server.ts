@@ -1,5 +1,6 @@
 // Imports
 import "dotenv/config";
+dotenv.config();
 import cors from "cors";
 import express from "express";
 import mongoose from "mongoose";
