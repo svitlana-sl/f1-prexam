@@ -23,7 +23,7 @@ export const getDrivers = async (req: Request, res: Response) => {
 
     const driversWithFlag = drivers.map((driver) => ({
       ...driver,
-      flag: getFlagUrl(driver.countryCode),
+      countryCode: getFlagUrl(driver.countryCode),
     }));
 
     res.status(200).json(driversWithFlag);
