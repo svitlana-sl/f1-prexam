@@ -2,33 +2,44 @@
 import "dotenv/config";
 import cors from "cors";
 import express from "express";
-import { notFound } from "./controllers/notFoundController";
-import testRoutes from "./routes/exampleRoutes";
-import { helloMiddleware } from "./middleware/exampleMiddleware";
 import mongoose from "mongoose";
+import { notFound } from "./controllers/notFoundController";
+import circuitsRoutes from "./routes/circuitsRoutes";
+import driversRoutes from "./routes/driversRoutes";
+import teamsRoutes from "./routes/teamRoutes";
+import racesRoutes from "./routes/racesRoutes";
+import { helloMiddleware } from "./middleware/exampleMiddleware";
 
 // Variables
 const app = express();
 const PORT = process.env.PORT || 3000;
+const MONGO_URI = process.env.MONGO_URI as string;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/api", helloMiddleware, testRoutes);
+app.use("/api/circuits", helloMiddleware, circuitsRoutes);
+app.use("/api/drivers", helloMiddleware, driversRoutes);
+app.use("/api/teams", helloMiddleware, teamsRoutes);
+app.use("/api/races", helloMiddleware, racesRoutes);
 app.all("*", notFound);
 
 // Database connection
-try {
-  await mongoose.connect(process.env.MONGO_URI!);
-  console.log("Database connection OK");
-} catch (err) {
-  console.error(err);
-  process.exit(1);
-}
+const connectDB = async () => {
+  try {
+    await mongoose.connect(MONGO_URI);
+    console.log("✅ Database connection OK");
+  } catch (err) {
+    console.error("❌ Database connection error:", err);
+    process.exit(1);
+  }
+};
 
-// Server Listening
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}! 🚀`);
+// Start the server after DB connection
+connectDB().then(() => {
+  app.listen(PORT, () => {
+    console.log(`🚀 Server is running on http://localhost:${PORT}`);
+  });
 });

@@ -77,7 +77,7 @@ web_modules/
 .env.local
 
 # build / generate output
-dist
+
 
 # Serverless directories
 .serverless/

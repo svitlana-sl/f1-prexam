@@ -1,0 +1,267 @@
+[
+  {
+    "circuit_id": "bahrain",
+    "name": "Bahrain International Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Bahrain_Circuit",
+    "location": {
+      "country": "Bahrain",
+      "city": "Sakhir"
+    },
+    "length_km": 5.412,
+    "turns": 15
+  },
+  {
+    "circuit_id": "jeddah",
+    "name": "Jeddah Street Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Saudi_Arabia_Circuit",
+    "location": {
+      "country": "Saudi Arabia",
+      "city": "Jeddah"
+    },
+    "length_km": 6.174,
+    "turns": 27
+  },
+  {
+    "circuit_id": "albert_park",
+    "name": "Albert Park Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_771/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Australia_Circuit",
+    "location": {
+      "country": "Australia",
+      "city": "Melbourne"
+    },
+    "length_km": 5.278,
+    "turns": 14
+  },
+  {
+    "circuit_id": "suzuka",
+    "name": "Suzuka International Racing Course",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Japan_Circuit",
+    "location": {
+      "country": "Japan",
+      "city": "Suzuka"
+    },
+    "length_km": 5.807,
+    "turns": 18
+  },
+  {
+    "circuit_id": "shanghai",
+    "name": "Shanghai International Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/China_Circuit",
+    "location": {
+      "country": "China",
+      "city": "Shanghai"
+    },
+    "length_km": 5.451,
+    "turns": 16
+  },
+  {
+    "circuit_id": "miami",
+    "name": "Miami International Autodrome",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Miami_Circuit",
+    "location": {
+      "country": "USA",
+      "city": "Miami"
+    },
+    "length_km": 5.412,
+    "turns": 19
+  },
+  {
+    "circuit_id": "imola",
+    "name": "Imola Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Italy_Circuit",
+    "location": {
+      "country": "Italy",
+      "city": "Imola"
+    },
+    "length_km": 4.909,
+    "turns": 19
+  },
+  {
+    "circuit_id": "monaco",
+    "name": "Circuit de Monaco",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Monoco_Circuit",
+    "location": {
+      "country": "Monaco",
+      "city": "Monte Carlo"
+    },
+    "length_km": 3.337,
+    "turns": 19
+  },
+  {
+    "circuit_id": "catalunya",
+    "name": "Circuit de Barcelona-Catalunya",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Spain_Circuit",
+    "location": {
+      "country": "Spain",
+      "city": "Barcelona"
+    },
+    "length_km": 4.675,
+    "turns": 16
+  },
+  {
+    "circuit_id": "gilles_villeneuve",
+    "name": "Circuit Gilles Villeneuve",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Canada_Circuit",
+    "location": {
+      "country": "Canada",
+      "city": "Montreal"
+    },
+    "length_km": 4.361,
+    "turns": 14
+  },
+  {
+    "circuit_id": "red_bull_ring",
+    "name": "Red Bull Ring",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Austria_Circuit",
+    "location": {
+      "country": "Austria",
+      "city": "Spielberg"
+    },
+    "length_km": 4.318,
+    "turns": 10
+  },
+  {
+    "circuit_id": "silverstone",
+    "name": "Silverstone Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Great_Britain_Circuit",
+    "location": {
+      "country": "UK",
+      "city": "Silverstone"
+    },
+    "length_km": 5.891,
+    "turns": 18
+  },
+  {
+    "circuit_id": "hungaroring",
+    "name": "Hungaroring",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Hungary_Circuit",
+    "location": {
+      "country": "Hungary",
+      "city": "Budapest"
+    },
+    "length_km": 4.381,
+    "turns": 14
+  },
+  {
+    "circuit_id": "spa",
+    "name": "Circuit de Spa-Francorchamps",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Belgium_Circuit",
+    "location": {
+      "country": "Belgium",
+      "city": "Spa"
+    },
+    "length_km": 7.004,
+    "turns": 19
+  },
+  {
+    "circuit_id": "zandvoort",
+    "name": "Circuit Zandvoort",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Netherlands_Circuit",
+    "location": {
+      "country": "Netherlands",
+      "city": "Zandvoort"
+    },
+    "length_km": 4.259,
+    "turns": 14
+  },
+  {
+    "circuit_id": "monza",
+    "name": "Autodromo Nazionale Monza",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Italy_Circuit",
+    "location": {
+      "country": "Italy",
+      "city": "Monza"
+    },
+    "length_km": 5.793,
+    "turns": 11
+  },
+  {
+    "circuit_id": "baku",
+    "name": "Baku City Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Baku_Circuit",
+    "location": {
+      "country": "Azerbaijan",
+      "city": "Baku"
+    },
+    "length_km": 6.003,
+    "turns": 20
+  },
+  {
+    "circuit_id": "singapore",
+    "name": "Marina Bay Street Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Singapore_Circuit",
+    "location": {
+      "country": "Singapore",
+      "city": "Singapore"
+    },
+    "length_km": 5.063,
+    "turns": 23
+  },
+
+  {
+    "circuit_id": "losail",
+    "name": "Losail International Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Qatar_Circuit",
+    "location": {
+      "country": "Qatar",
+      "city": "Losail"
+    },
+    "length_km": 5.419,
+    "turns": 16
+  },
+  {
+    "circuit_id": "cota",
+    "name": "Circuit of the Americas",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/USA_Circuit",
+    "location": {
+      "country": "USA",
+      "city": "Austin"
+    },
+    "length_km": 5.513,
+    "turns": 20
+  },
+  {
+    "circuit_id": "mexico_city",
+    "name": "Autodromo Hermanos Rodriguez",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Mexico_Circuit",
+    "location": {
+      "country": "Mexico",
+      "city": "Mexico City"
+    },
+    "length_km": 4.304,
+    "turns": 17
+  },
+  {
+    "circuit_id": "interlagos",
+    "name": "Interlagos Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Brazil_Circuit",
+    "location": {
+      "country": "Brazil",
+      "city": "São Paulo"
+    },
+    "length_km": 4.309,
+    "turns": 15
+  },
+  {
+    "circuit_id": "las_vegas",
+    "name": "Las Vegas Street Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Las_Vegas_Circuit",
+    "location": {
+      "country": "USA",
+      "city": "Las Vegas"
+    },
+    "length_km": 6.12,
+    "turns": 17
+  },
+  {
+    "circuit_id": "yas_marina",
+    "name": "Yas Marina Circuit",
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Abu_Dhabi_Circuit",
+    "location": {
+      "country": "UAE",
+      "city": "Abu Dhabi"
+    },
+    "length_km": 5.281,
+    "turns": 16
+  }
+]

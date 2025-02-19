@@ -1,0 +1,192 @@
+[
+  {
+    "team_id": "mercedes",
+    "name": "Mercedes AMG Petronas",
+    "principal": "Toto Wolff",
+    "base": "Brackley, UK",
+    "founded_year": 2010,
+    "engine": "Mercedes",
+    "drivers": [
+      {
+        "driver_id": "lewis_hamilton",
+        "position": 1
+      },
+      {
+        "driver_id": "george_russell",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes"
+  },
+  {
+    "team_id": "red_bull_racing",
+    "name": "Red Bull Racing",
+    "principal": "Christian Horner",
+    "base": "Milton Keynes, UK",
+    "founded_year": 2005,
+    "engine": "Honda",
+    "drivers": [
+      {
+        "driver_id": "max_verstappen",
+        "position": 1
+      },
+      {
+        "driver_id": "sergio_perez",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/red%20bull"
+  },
+  {
+    "team_id": "ferrari",
+    "name": "Scuderia Ferrari",
+    "principal": "Fred Vasseur",
+    "base": "Maranello, Italy",
+    "founded_year": 1929,
+    "engine": "Ferrari",
+    "drivers": [
+      {
+        "driver_id": "charles_leclerc",
+        "position": 1
+      },
+      {
+        "driver_id": "carlos_sainz",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/ferrari"
+  },
+  {
+    "team_id": "mclaren",
+    "name": "McLaren",
+    "principal": "Andrea Stella",
+    "base": "Woking, UK",
+    "founded_year": 1963,
+    "engine": "Mercedes",
+    "drivers": [
+      {
+        "driver_id": "lando_norris",
+        "position": 1
+      },
+      {
+        "driver_id": "oscar_piastri",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/mclaren"
+  },
+  {
+    "team_id": "aston_martin",
+    "name": "Aston Martin",
+    "principal": "Mike Krack",
+    "base": "Silverstone, UK",
+    "founded_year": 2021,
+    "engine": "Mercedes",
+    "drivers": [
+      {
+        "driver_id": "fernando_alonso",
+        "position": 1
+      },
+      {
+        "driver_id": "lance_stroll",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/aston%20martin"
+  },
+  {
+    "team_id": "alpine",
+    "name": "Alpine F1 Team",
+    "principal": "Bruno Famin",
+    "base": "Enstone, UK",
+    "founded_year": 2021,
+    "engine": "Renault",
+    "drivers": [
+      {
+        "driver_id": "pierre_gasly",
+        "position": 1
+      },
+      {
+        "driver_id": "esteban_ocon",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/alpine"
+  },
+  {
+    "team_id": "rb",
+    "name": "RB",
+    "principal": "Laurent Mekies",
+    "base": "Faenza, Italy",
+    "founded_year": 2020,
+    "engine": "Honda",
+    "drivers": [
+      {
+        "driver_id": "yuki_tsunoda",
+        "position": 1
+      },
+      {
+        "driver_id": "liam_lawson",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/rb"
+  },
+  {
+    "team_id": "haas",
+    "name": "Haas F1 Team",
+    "principal": "Ayao Komatsu",
+    "base": "Kannapolis, USA",
+    "founded_year": 2016,
+    "engine": "Ferrari",
+    "drivers": [
+      {
+        "driver_id": "nico_hulkenberg",
+        "position": 1
+      },
+      {
+        "driver_id": "kevin_magnussen",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/haas"
+  },
+  {
+    "team_id": "williams",
+    "name": "Williams Racing",
+    "principal": "James Vowles",
+    "base": "Grove, UK",
+    "founded_year": 1977,
+    "engine": "Mercedes",
+    "drivers": [
+      {
+        "driver_id": "alexander_albon",
+        "position": 1
+      },
+      {
+        "driver_id": "franco_colapinto",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/williams"
+  },
+  {
+    "team_id": "kick_sauber",
+    "name": "KICK Sauber F1 Team",
+    "principal": "Alessandro Alunni Bravi",
+    "base": "Hinwil, Switzerland",
+    "founded_year": 1993,
+    "engine": "Ferrari",
+    "drivers": [
+      {
+        "driver_id": "valtteri_bottas",
+        "position": 1
+      },
+      {
+        "driver_id": "guanyu_zhou",
+        "position": 2
+      }
+    ],
+    "image": "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/kick%20sauber"
+  }
+]
