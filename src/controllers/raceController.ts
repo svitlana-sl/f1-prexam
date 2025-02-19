@@ -23,8 +23,10 @@ export const getRaces = async (req: Request, res: Response) => {
 
     const racesWithDetails = await Promise.all(
       races.map(async (race) => {
+        const { race_results: originalResults, ...raceData } = race;
+
         const raceResults = await Promise.all(
-          race.race_results.map(async (result) => {
+          originalResults.map(async (result) => {
             const driver = await Driver.findOne({
               driver_id: result.driver_id,
             }).lean();
@@ -37,20 +39,23 @@ export const getRaces = async (req: Request, res: Response) => {
                 formattedTime = formatTimePosition(result.time);
               }
             }
+
             return {
               ...result,
               time: formattedTime,
-              driver,
+              driver: {
+                ...driver,
+                countryCode: driver?.countryCode
+                  ? getFlagUrl(driver.countryCode)
+                  : null,
+              },
             };
           })
         );
 
         return {
-          ...race,
+          ...raceData,
           race_results: raceResults,
-          flag: (race as any).countryCode
-            ? getFlagUrl((race as any).countryCode)
-            : undefined,
         };
       })
     );

@@ -20,7 +20,12 @@ export const getTeams = async (req: Request, res: Response) => {
             }).lean();
             return {
               ...d,
-              driver,
+              driver: {
+                ...driver,
+                countryCode: driver?.countryCode
+                  ? getFlagUrl(driver.countryCode)
+                  : null,
+              },
             };
           })
         );
@@ -28,10 +33,6 @@ export const getTeams = async (req: Request, res: Response) => {
         return {
           ...team,
           drivers,
-
-          flag: (team as any).countryCode
-            ? getFlagUrl((team as any).countryCode)
-            : undefined,
         };
       })
     );
