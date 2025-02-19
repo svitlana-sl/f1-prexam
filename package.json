@@ -6,9 +6,11 @@
   "type": "module",
   "scripts": {
     "dev": "npx tsx watch ./src/server.ts",
-    "seed": "npx ts-node src/seed.ts",
+    "seed": "tsc && node dist/seed.js",
     "build": "pkgroll --clean-dist --minify",
     "start": "node dist/server.mjs"
+
+    
   },
   "keywords": [],
   "author": "",
@@ -23,7 +25,7 @@
     "mongoose": "^8.9.5"
   },
   "devDependencies": {
-    "@types/node": "^22.10.7",
+    "@types/node": "^22.13.4",
     "pkgroll": "^2.6.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
