@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx tsx watch ./src/server.ts",
-    "build": "pkgroll --clean-dist --minify",
+    "build": "npx pkgroll --clean-dist --minify",
     "start": "node dist/server.mjs"
   },
   "keywords": [],
